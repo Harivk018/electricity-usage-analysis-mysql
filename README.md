@@ -20,6 +20,10 @@ It is designed using Fact–Dimension modeling to enable efficient querying, rep
 
 An ER Diagram is included to explain table relationships.
 
+## 📁 Data Source
+The project uses CSV files as the data source.  
+Data was loaded into MySQL tables using the `LOAD DATA INFILE` command for efficient bulk insertion.
+
 ## 🔧 SQL Concepts Implemented
 - Joins (INNER, LEFT)
 - Subqueries
